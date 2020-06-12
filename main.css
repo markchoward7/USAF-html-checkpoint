@@ -70,13 +70,8 @@
 }
 
 .alert a {
-<<<<<<< HEAD
-	color: #ffc107;
-	text-decoration: none;
-=======
 	text-decoration: none;
 	color: #ffc107;
->>>>>>> origin/master
 }
 
 /* GRID */
