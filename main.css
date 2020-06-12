@@ -3,12 +3,76 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.nav-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.nav-item {
+	float: left;
+	padding: 14px 16px;
+}
+
+.nav-item-right {
+	float: right;
+	padding: 10px 8px;
+}
+
+.nav-icon {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.nav-link {
+	color: ffffff;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.nav-search-box {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	border-radius: 4px;
+	line-height: 2em;
+}
+
+.nav-search-box:focus {
+	outline: none !important;
+	border: 1px solid #17a2b8;
+	box-shadow: 0 0 10px
+}
+
+.nav-search-button {
+	background-color: #333;
+	border: 1px solid #ffc107;
+	border-radius: 4px;
+	color: #ffc107;
+	padding: 6px 8px;
+	text-align: center;
+	text-decoration: none;
+}
+.nav-search-box::-webkit-search-cancel-button{
+	position:relative;
+	right:20px;    
+}
+
 .alert {
 	padding: 15px;
 	background-color: #6c757d;
 	color: #ffc107;
 	margin: 4px 0px 8px;
 	border-radius: 4px;
+}
+
+.alert a {
+	color: #ffc107;
+	text-decoration: none;
 }
 
 /* GRID */
@@ -112,7 +176,13 @@
 .comment-input {
 	border: 1px solid #cccccc;
 	border-radius: 4px;
-	padding: 0px 12px 12px 0px;
+	line-height: 2em;
+}
+
+.comment-input:focus {
+	outline: none !important;
+	border: 1px solid #17a2b8;
+	box-shadow: 0 0 2px #17a2b8
 }
 
 .comment-button {
