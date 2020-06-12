@@ -1,0 +1,42 @@
+/* GENERIC */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5em;
+    padding: 5em;
+}
+/* LOGIN */
+
+.login-header {
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.login-form {
+    font-size: 1.3rem;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-weight: bold;
+}
+
+.login-form .textbox {
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 0.4rem;
+    padding: 0.8rem 1.6rem;
+}
+
+.login-form input[type=submit] {
+    background-color: #007bff;
+    color: white;
+    width: 5em;
+    height: 3em;
+    border: none;
+    border-radius: 0.4rem;
+}
