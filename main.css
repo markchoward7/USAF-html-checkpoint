@@ -12,14 +12,21 @@
 }
 
 /* GRID */
-.grid-container {
+.grid-container-3 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 5em;
     padding: 5em;
 }
-/* LOGIN */
 
+.grid-container-4 {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 2em;
+	padding: 2em;
+}
+
+/* LOGIN */
 .login-header {
     grid-column-start: 2;
     text-align: center;
@@ -49,6 +56,16 @@
     border-radius: 0.4rem;
 }
 
+/* HOME */
+.movie-poster {
+	height: 40em;
+	width: 25em;
+}
+
+.movie-poster img {
+	height: 40em;
+	width: 25em;
+}
 
 /* MOVIE DETAILS */
 
