@@ -10,8 +10,8 @@
     grid-gap: 5em;
     padding: 5em;
 }
-/* LOGIN */
 
+/* LOGIN */
 .login-header {
     grid-column-start: 2;
     text-align: center;
@@ -40,3 +40,5 @@
     border: none;
     border-radius: 0.4rem;
 }
+
+/* HOME */
